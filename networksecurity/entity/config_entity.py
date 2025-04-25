@@ -16,7 +16,6 @@ class TrainingPipelineConfig:
         self.timestamp: str=timestamp
 
 
-
 class DataIngestionConfig:
     def __init__(self,training_pipeline_config:TrainingPipelineConfig):
         self.data_ingestion_dir:str=os.path.join(
